@@ -4,12 +4,12 @@ body {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.2em;
-    top: 15%;
+    top: 30%;
     background: linear-gradient(to right, red, yellow);
 }
 
 h1 {
-    font-family: 900 6em 'Fredoka One', cursive;;
+    font-family: 900 6em 'Fredoka One', cursive;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.7em;
