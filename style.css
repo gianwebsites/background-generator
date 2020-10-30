@@ -1,23 +1,59 @@
 body {
-    /*font-family: 'Yrsa', serif;*/
+    font-family: 'Orbitron', sans-serif;
     color: rgba(0,0,0,5);
     text-align: center;
-    text-transform: uppercase;
     letter-spacing: 0.2em;
-    top: 30%;
-    background: linear-gradient(to right, red, yellow);
+    top: 15%;
+    background: linear-gradient(to right, #232b58, #adfeff);
+    text-shadow: 1px 1px white;
 }
 
 h1 {
-    font-family: 900 6em 'Fredoka One', cursive;
+    font-size: /*1500*/ 2.2em;
     text-align: center;
     text-transform: uppercase;
-    letter-spacing: 0.7em;
+    letter-spacing: 0.6em;
     width: 100%;
+    /*text-decoration: underline;*/
+    margin-top: 1.4em;
+}
+
+.gradiency {
+    font-size: 1.2em;
+    margin-top: .2em;
+    margin-bottom: 3em;
+}
+
+hr {
+    border-style: solid;
+    background-color: black;
+    margin-bottom: 2em;
+    width: 300px;
+    box-shadow: 1px 1px white;
+}
+
+.color1, .color2 {
+
+}
+
+.top {
+    margin-top: 3.5em;
+    font-size: 1.3em;
+}
+
+.bottom {
+    font-size: 1.1em;
+}
+
+.outputs {
+    border: .5px solid black;
+    border-radius: 30px;
+    margin-left: 13em;
+    margin-right: 13em;
 }
 
 h2 {
-     font-family: 900 3em 'Yrsa', serif;
+    font-size: 2em;
     color: rgba(0,0,0,5);
     text-align: center;
     text-transform: uppercase;
@@ -25,7 +61,6 @@ h2 {
 }
 
 h3 {
-    font-family: 900 3em 'Yrsa', serif;
     color: rgba(0,0,0,5);
     text-align: center;
     text-transform: none;
