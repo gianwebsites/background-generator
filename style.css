@@ -8,29 +8,33 @@ body {
     text-shadow: 1px 1px 1px white;
 }
 .navbar {
-    background-color: #000000 !important;
+    opacity: 0.6;
 }
-
+.navbar-nav {
+    margin-left: auto;
+}
 .nav-link {
-    color: #4d4d4d !important;
-    text-shadow: .5px .5px .5px white;
-    font-size: 1.1em;
-    font-weight: bolder;
+    color: #000000 !important;
+    /*text-shadow: .5px .5px .5px white;*/
+    text-shadow: none;
+    font-size: 1em;
+    font-weight: 500;
 }
 .container {
     display: grid;
     background-color: #4d4d4d00;
-    box-shadow: 9px 9px 9px #000000;
+    box-shadow: 12px 12px 12px #000000;
     font-size: 900 2.8em;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 0.6em;
-    margin-top: 1.4em;
-    transition: all 1s;
+    margin-top: 2.5em;
+    transition: all .5s;
 }
 
+
 .container:hover{
- transform: scale(1, 1.1);
+ transform: scale(1, 1.05);
 }
 
 .gradiency {
@@ -59,10 +63,11 @@ body {
 }
 
 
-.bottom {
+#bottom{
     margin-top: 1.8em;
     margin-bottom: 1.8em;
-    font-size: 1.1em;
+    font-size: 1.3em;
+    font-weight: 900;
 }
 
 .outputs {
