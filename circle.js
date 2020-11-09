@@ -7,7 +7,7 @@ var body = document.getElementById("gradient");
 
 
 function setGradient() {
-	body.style.background = "linear-gradient(to right bottom, "
+	body.style.background = "radial-gradient(circle, "
 	 + color1.value
 	 + ", " 
 	 + color2.value 
@@ -18,4 +18,3 @@ function setGradient() {
 color1.addEventListener ("input",  setGradient);
 
 color2.addEventListener ("input",  setGradient);
-	
