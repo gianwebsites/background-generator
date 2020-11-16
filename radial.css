@@ -9,7 +9,7 @@ body {
     letter-spacing: 0.2em;
     top: 15%;
     background: radial-gradient(#ff6b6b, #000000);
-    text-shadow: 1px 1px 1px white;
+    text-shadow: 1px 1px 2.7px white;
 }
 
 .navbar-brand {
@@ -28,7 +28,7 @@ body {
     /*color: #000000 !important;*/
     /*text-shadow: .5px .5px .5px white;*/
     text-shadow: none;
-    font-size: 1em;
+    font-size: 0.8em;
     font-weight: 500;
     margin-right: auto;
     text-decoration: underline;
