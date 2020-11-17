@@ -1,49 +1,70 @@
-html, body {
+html {
     min-height: 100%;
 }  
 
 body {
+    background: url(colorPaletteSquares.jpg) no-repeat center center fixed; 
+    background-size: contain;
     font-family: 'Orbitron', sans-serif;
-    color: #292929;
     text-align: center;
     letter-spacing: 0.2em;
-    top: 15%;
-    background: #ffa733;
-    text-shadow: 1px 1px 2.7px white;
+    top: 15%; 
 }
 
-.navbar-brand {
-    font-size: 1.4em;
-}
-.navbar {
-    opacity: 0.4;
-}
-
-
-.nav-link {
-    /*color: #000000 !important;*/
-    /*text-shadow: .5px .5px .5px white;*/
-    text-shadow: none;
-    font-size: 0.8em;
-    font-weight: 500;
-    margin-right: auto;
-    text-decoration: underline;
+.position-static {
+    position: sticky;
 }
 .jumbotron {
-    background: linear-gradient( #fff9ef, #a2a2a2);
+    background: #c6c6c685;
     box-shadow: 15px 15px 15px #2f2f2f;
-    font-size: 900 2.8em;
     text-align: center;
+    text-shadow: 3px 3px 3px  grey;
     text-transform: uppercase;
     letter-spacing: 0.6em;
     margin-top: 2.5em;
-    margin-right: 1em;
-    margin-left: 1em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
 }
 
-.jumbotron, p {
-    text-shadow: 1px 1px 1.5px white;
+.title {
+    font-size: 3em;
 }
+
+
+.btn-primary {
+    margin-top: 2em;
+    background-color: grey;
+    color: black;
+    border-radius: 200px;
+    border-color: black;
+    transition: all .5s;
+}
+
+.btn-primary:hover {
+   color: black;
+   transform: scale(1, 1.1);
+   background-color: grey;
+   border-color: black;
+}
+
+
+.card {
+    background-color: #c6c6c685;
+    margin-left: 3.5em;
+    margin-bottom: 2.5em;
+}
+
+.mb-2 {
+    font-size: 1.5em;
+    text-decoration: underline;
+}
+
+.card-body {
+    box-shadow: 15px 15px 15px #2f2f2f;
+    text-align: left;
+
+}
+
 
 
 
