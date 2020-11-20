@@ -14,7 +14,7 @@ body {
 
 .navbar-brand {
     font-size: 1.4em;
-    text-decoration: underline;
+    text-shadow: none;
 }
 .navbar {
     opacity: 0.4;
