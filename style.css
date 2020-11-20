@@ -1,11 +1,17 @@
 html {
-    min-height: 100%;
-}  
+   min-height: 100%;
+   background: linear-gradient(135deg, #c6c6c6b8 10%, #ffffff 10%, #ffffff 40%, #c6c6c6b8 40%);
+  /* Start #5cbcb0 from 0 and end at 5%, Start #fff at 5% and end at 15%, Start #5cbcb0 again at 15% and end at 100% */
+   background-size: cover;
+   background-repeat: no-repeat; 
+}
+ 
 
 body {
     background: url(colorPaletteSquares.jpg) no-repeat center center fixed; 
     background-size: contain;
-    font-family: 'Orbitron', sans-serif;
+    /*font-family: 'Orbitron', sans-serif;*/
+    font-family: 'Permanent Marker', cursive;
     text-align: center;
     letter-spacing: 0.2em;
     top: 15%; 
@@ -14,31 +20,37 @@ body {
 .bg-light {
     background: #c6c6c6b8 !important;
     box-shadow: 3px 3px 20px  grey;
+    align-items: left;
 }
 
-.credits {
+.nav-item {
     color: #000000;
-    margin-right: auto;
+    margin-left: 12px;
     font-size: 1em;
     font-weight: 700;
     text-decoration: underline;
 }
 
-.credits:hover {
+.nav-item:hover {
     color: black !important;
 }
+
+
 .jumbotron {
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bold;
+    border-radius: 10px;
     padding-top: 25px;
     padding-bottom: 25px;
     padding-right: 15px;
     padding-left: 15px;
-    background: #c6c6c6b8;
+    background: linear-gradient(to right bottom, #ffffffb3, #4c4c4c);
     box-shadow: 15px 15px 15px #2f2f2f;
     text-align: center;
-    text-shadow: 3px 3px 3px #e6e6e6;
+    text-shadow: 1.3px 1.3px 1.3px #e6e6e6;
     text-transform: uppercase;
     letter-spacing: 0.6em;
-    margin-top: 4em;
+    margin-top: 6em;
     margin-left: 4em;
     margin-right: 4em;
     margin-bottom: 10em;
@@ -57,7 +69,7 @@ hr.division {
 .btn-link {
     margin-top: 1em;
     margin-bottom: 1em;
-    background-color: grey;
+    background-color: orange;
     color: black;
     border-radius: 200px;
     border-color: black;
@@ -95,10 +107,24 @@ hr.style-four {
 }
 
 .card {
-    background-color: #c6c6c6b8;
+    background-color: #ffffffcc;
     margin-left: 3.5em;
     margin-top: 5em;
-    margin-bottom: 5em;
+    margin-bottom: 12em;
+    text-align: left;
+}
+
+.card2 {
+    background-color: #ffffffcc;
+    margin-left: auto;
+    margin-right: 3.5em;
+    margin-top: 5em;
+    margin-bottom: 12em;
+    text-align: left;
+}
+
+.card-link {
+    text-decoration: underline;
 }
 
 .mb-2 {
@@ -110,6 +136,21 @@ hr.style-four {
     box-shadow: 15px 15px 15px #2f2f2f;
     text-align: left;
 
+}
+
+li {
+    text-decoration: underline;
+    font-weight: 900;
+}
+
+.footer {
+   height: 5em;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #c6c6c6b8 ;
+   color: black;
+   text-align: center;
 }
 
 
